@@ -1,6 +1,4 @@
 # COP-Population-Dynamics
- 
-Contributors: Jonah Post, Mio Poortvliet, Iliya Bolotov
 
 ## How to run
 
