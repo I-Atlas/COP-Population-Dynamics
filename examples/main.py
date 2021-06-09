@@ -5,10 +5,10 @@ import numpy as np
 
 if __name__ == "__main__":
     settings = {
-        "map_size": 60,
+        "map_size": 50,
         "animals": ["fox", "rabbit"],
         "foods": ["carrot", ],
-        "fox": 30,
+        "fox": 20,
         "rabbit": 200,
         "carrot": 1200,
         "food_spawn_chance": {"carrot": 0.05},
@@ -35,7 +35,7 @@ if __name__ == "__main__":
     animal_objects = {
         "fox": {"object": Fox, "init": fox_inits},
         "rabbit": {"object": Rabbit, "init": rabbit_inits},
-                      }
+    }
     food_objects = {"carrot": Carrot}
 
     ae = AnimalEvolution(settings, food_objects, animal_objects)

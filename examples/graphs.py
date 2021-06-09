@@ -5,7 +5,7 @@ from src.IO_utils import to_file, slugify, ensure_dir, to_json
 from datetime import datetime
 import numpy as np
 
-fox_density = 0.0009
+fox_density = 0.001
 rabbit_density = 0.007
 carrot_density = 0.02
 map_size = 50
@@ -51,6 +51,7 @@ rabbit_inits = {
     "mean_max_age": 4000,
     "nutritional_value": 400
 }
+
 
 # Set up simulation
 animal_objects = {"fox": {"object": Fox, "init": fox_inits}, "rabbit": {"object": Rabbit, "init": rabbit_inits}}
